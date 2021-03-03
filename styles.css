@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: monospace;
-  background-color: rgba(196, 226, 224);
+  background-color: rgb(198, 219, 236);
   margin: 0;
 }
 
@@ -32,21 +36,16 @@ iframe {
 }
 
 nav {
-  background-color: rgb(156, 204, 243);
+  background-color: rgb(82, 130, 219);
   padding: 10px;
+  font-weight: bold;
 }
 
-nav a:link {
-  color: blue;
-}
-nav a:visited {
-  color: magenta;
-}
 nav a:hover {
   color: lime;
 }
 nav a:active {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 footer {
   padding-left: 10px;
@@ -73,7 +72,7 @@ footer {
 
 .githublink-style a:hover {
   text-decoration: underline;
-  color: red;
+  color: rgb(224, 75, 5);
 }
 
 .dummy-links a {
