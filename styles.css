@@ -20,9 +20,14 @@ a {
   font-family: Helvetica;
   font-size: small;
   margin-left: 8px;
+  text-decoration: none;
 }
 
 img {
+  margin-left: 8px;
+}
+
+iframe {
   margin-left: 8px;
 }
 
@@ -30,20 +35,18 @@ nav {
   background-color: rgb(156, 204, 243);
   padding: 10px;
 }
-nav a {
-  text-decoration: none;
-}
+
 nav a:link {
-  color: olive;
+  color: blue;
 }
 nav a:visited {
-  color: orangered;
+  color: magenta;
 }
 nav a:hover {
-  color: rebeccapurple;
+  color: lime;
 }
 nav a:active {
-  color: royalblue;
+  color: red;
 }
 footer {
   padding-left: 10px;
@@ -58,4 +61,22 @@ footer {
 
 .text-style {
   font-family: Helvetica, sans-serif;
+}
+
+.githublink-style a:link {
+  color: black;
+}
+
+.githublink-style a:visited {
+  color: darkgreen;
+}
+
+.githublink-style a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.dummy-links a {
+  color: black;
+  font-weight: bold;
 }
